@@ -4,57 +4,52 @@
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "5",
-        "6"
+        "7"
       ]
     },
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
         "5",
-        "6"
+        "6",
+        "7"
       ]
     },
     {
       "operatingsystem": "OracleLinux",
       "operatingsystemrelease": [
         "5",
-        "6"
+        "6",
+        "7"
       ]
     },
     {
       "operatingsystem": "Scientific",
-      "operatingsystemrelease": [
-        "5",
-        "6"
-      ]
-    },
-    {
-      "operatingsystem": "SLES",
-      "operatingsystemrelease": [
-        "11 SP1"
-      ]
-    },
-    {
-      "operatingsystem": "Debian",
       "operatingsystemrelease": [
         "6",
         "7"
       ]
     },
     {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8",
+        "9"
+      ]
+    },
+    {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "10.04",
-        "12.04",
-        "14.04.5",
-        "16.04.4"
+        "14.04",
+        "16.04",
+        "18.04"
       ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": "3.x"
+      "version_requirement": ">= 5.5.10 < 7.0.0"
     }
   ],
   "name": "yelp-uchiwa",
@@ -69,7 +64,7 @@
   "dependencies": [
     {
       "name": "puppetlabs/apt",
-      "version_requirement": ">=2.0.0 <5.0.1"
+      "version_requirement": ">=2.0.0 <7.0.0"
     },
     {
       "name": "puppetlabs/stdlib"
